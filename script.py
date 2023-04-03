@@ -21,6 +21,7 @@ def kurtosis_func(data,field):
  
 fields=['Marketing_Spend','Administration','Transport','Profit']
 
+
  
 for i in fields:
   

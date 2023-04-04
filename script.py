@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 data=pd.read_csv('online.csv',delimiter=',')
 data.head()
 
+
 def histogram_plot(data,field):
   return sbs.histplot(data=data,x=i,kde=True,bins=20)
 

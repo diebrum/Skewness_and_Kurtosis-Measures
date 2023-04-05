@@ -30,6 +30,7 @@ for i in fields:
   plt.show()
   
   
+  
 for i in fields:
   skew=skewness_func(data,i)
   kurt=kurtosis_func(data,i)

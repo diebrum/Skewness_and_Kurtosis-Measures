@@ -18,8 +18,7 @@ def skewness_func(data,field):
   return scp.stats.skew(data[field])
 
 def kurtosis_func(data,field):
-  return scp.stats.kurtosis(data[field])
- 
+  return scp.stats.kurtosis(data[field]) 
   
  
  

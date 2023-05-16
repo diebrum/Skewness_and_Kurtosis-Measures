@@ -31,6 +31,7 @@ for i in fields:
   hist=histogram_plot(data,i)
   plt.show()  
   
+  
     
 for i in fields:
   skew=skewness_func(data,i)

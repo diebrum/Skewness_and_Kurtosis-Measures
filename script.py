@@ -28,8 +28,7 @@ fields=['Marketing_Spend','Administration','Transport','Profit']
 for i in fields:
   
   hist=histogram_plot(data,i)
-  plt.show()  
-  
+  plt.show()    
   
     
 for i in fields:

@@ -14,8 +14,10 @@ data.head()
 def histogram_plot(data,field):
   return sbs.histplot(data=data,x=i,kde=True,bins=20)
 
+
 def skewness_func(data,field):
   return scp.stats.skew(data[field])
+
 
 def kurtosis_func(data,field):
   return scp.stats.kurtosis(data[field])   

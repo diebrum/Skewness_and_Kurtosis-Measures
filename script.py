@@ -5,7 +5,6 @@ import scipy as scp
 import matplotlib.pyplot as plt
 
 
-
 data=pd.read_csv('online.csv',delimiter=',')
 data.head()
 
